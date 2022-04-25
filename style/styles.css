@@ -178,7 +178,7 @@ ul {
     url(../images/BG-hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: auto;
 }
 
 .main-header-button {
@@ -550,7 +550,4 @@ ul {
 .clients-link:hover {
   border: 1px solid #2196f3;
   fill: #2196f3;
-}
-.clients-link:nth-last-child {
-  margin-right: 0;
 }
