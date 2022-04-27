@@ -322,6 +322,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  fill: #2196f3;
 }
 .team-soc-item {
   margin-right: 10px;
@@ -341,6 +342,10 @@ ul {
 }
 .team-soc-link:hover .team-soc-icon {
   fill: #fdfeff;
+}
+.team-soc-link:focus .team-soc-icon {
+  background-color: #2196f3;
+  fill: #ffffff;
 }
 .team-soc-link:focus {
   background-color: #2196f3;
@@ -564,4 +569,5 @@ ul {
 }
 .clients-link:focus {
   background-color: #2196f3;
+  fill: rgb(255, 255, 255);
 }
