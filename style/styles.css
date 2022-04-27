@@ -203,10 +203,16 @@ ul {
   padding-top: var(--padding-often);
   padding-bottom: var(--padding-often);
 }
+.icon-feature {
+  margin-bottom: 30px;
+  align-items: center;
+}
 .icon-feature-item {
   width: 270px;
   height: 120px;
-  padding-bottom: 30px;
+  padding: 25px 100px;
+  border-radius: 4px;
+  background: #eeeded;
 }
 .features-list-header {
   font-weight: 700;
@@ -253,6 +259,7 @@ ul {
 .section-team {
   padding-top: var(--padding-often);
   padding-bottom: var(--padding-often);
+  background-color: #eeeded;
 }
 .team-header {
   font-weight: 700;
@@ -327,13 +334,16 @@ ul {
   fill: #ffffff;
 }
 .team-soc-icon:focus {
-  fill: #ffffff;
+  background-color: #757575;
 }
 .team-soc-link:hover {
   background-color: #2196f3;
 }
 .team-soc-link:hover .team-soc-icon {
   fill: #fdfeff;
+}
+.team-soc-link:focus {
+  background-color: #2196f3;
 }
 /*------------------------------------FOOTER----------------------------------- */
 .logo-white {
@@ -413,8 +423,8 @@ ul {
 .footer-soc-icon:hover {
   fill: #ffffff;
 }
-.footer-soc-icon:focus {
-  fill: #ffffff;
+.footer-soc-link:focus {
+  background-color: #2196f3;
 }
 .footer-soc-link:hover {
   background-color: #2196f3;
@@ -523,6 +533,7 @@ ul {
 /*----------------------------------------------Clients----------------------*/
 .clients {
   padding-bottom: var(--padding-often);
+  padding-top: var(--padding-often);
 }
 .clients-list {
   display: flex;
@@ -550,4 +561,7 @@ ul {
 .clients-link:hover {
   border: 1px solid #2196f3;
   fill: #2196f3;
+}
+.clients-link:focus {
+  background-color: #2196f3;
 }
