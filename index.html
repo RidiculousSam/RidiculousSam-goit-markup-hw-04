@@ -31,7 +31,7 @@
         <nav class="nav">
           <ul class="nav-list">
             <li class="nav-list-item list">
-              <a class="nav-list-item-text" href="./index.html">Студия</a>
+            <div class="nav-list-item-text-after"> <a class="nav-list-item-text" href="./index.html">Студия</a></div>
             </li>
             <li class="nav-list-item list">
               <a class="nav-list-item-text" href="./portfolio.html"
@@ -64,7 +64,7 @@
           <!--Заголовок-->
           <h1 class="main-header">Эффективные решения для вашего бизнеса</h1>
           <div class="header-button">
-            <button class="main-header-button" type="button">
+            <button class="main-header-button" type="button" data-modal-open>
               Заказать услугу
             </button>
           </div>
@@ -133,6 +133,7 @@
           <ul class="can-do-list">
             <li class="can-do-img list">
               <img src="./images/coding.jpg" alt="Написание кода" width="370" />
+              <div class="can-do-bg"><p class="can-do-text">Десктопные приложения</p></div>
             </li>
             <li class="can-do-img list">
               <img
@@ -140,6 +141,7 @@
                 alt="Дизайн приложений"
                 width="370"
               />
+              <div class="can-do-bg"><p class="can-do-text">Мобильные приложения</p></div>
             </li>
             <li class="can-do-img list">
               <img
@@ -147,6 +149,7 @@
                 alt="Отрисовка макетов"
                 width="370"
               />
+              <div class="can-do-bg"><p class="can-do-text">Дизайнерские решения</p></div>
             </li>
           </ul>
         </div>
@@ -455,5 +458,15 @@
         </section>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-button" data-modal-close><svg class="icon-modal" width="11" , height="11">
+                        <use
+                          href="./images/symbol-defs.svg#icon-x"
+                        ></use>
+                      </svg></button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
